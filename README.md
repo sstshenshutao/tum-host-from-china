@@ -9,10 +9,10 @@ This repo provides a secure and stable solution for connecting a host inside the
 留学生上网课会遇到学校资源需要链接到学校内网才能获得, 而学校往往提供了anyconnect三层(网络层)的VPN软件来保证安全, 由于目前普遍使用的科学上网软件为四层(传输层Proxy), 所以VPN流量并不会自动走Proxy, 导致几分钟就要重新连接一次anyconnect.
 
 ## 二. 架构简述
-透明路由TProxy
-自建TLP (加密)
-自建OpenVPN over Socks5 Tunnel
-最终目的是图中两个红色方框内的机器可以实现网络层(IP层)相互通讯
+透明路由TProxy  
+自建TLP (加密)  
+自建OpenVPN over Socks5 Tunnel  
+以下为我大概画的一个网络结构示意图: 最终目的是图中两个红色方框内的机器可以实现网络层(IP层)相互通讯  
 ![structure](https://github.com/sstshenshutao/tum-host-from-china/blob/master/structure.png)
 
 ## 三. 问题
