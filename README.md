@@ -13,7 +13,7 @@ This repo provides a secure and stable solution for connecting a host inside the
 自建TLP (加密)
 自建OpenVPN over Socks5 Tunnel
 最终目的是图中两个红色方框内的机器可以实现网络层(IP层)相互通讯
-
+![structure](https://github.com/sstshenshutao/tum-host-from-china/blob/master/structure.png)
 
 ## 三. 问题
 ### 1. 为什么不自己搭科学上网服务, 而要去租大型的?
